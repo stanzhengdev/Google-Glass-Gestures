@@ -10,9 +10,17 @@ Google Glass Boilerplate Template (Built for ADT)
  - Imports all Necessary Packages
  - Designed to Work with XE12
  
-Use as the base framework for Glassware development on XE12
+<b>Use as the base framework for Glassware development on XE12
 
-Carmine Valentino<br >
-cvalentino3@gmail.com<br >
-@cvalentino3<br >
-+CarmineValentinoIII<br >
+<b>Notable File Location:
+ - /res/values/strings.xml
+  - Global Variables for 'app_name', and 'glass_voice_triggers' These drive the voice commands and labeling of your Glassware in the Application menu.
+ - /res/xml/voice_trigger.xml
+  - Set voice trigger keyword - This will inherit our globally defined variable from the strings.xml file
+ - /AndroidManifest.xml
+  - The Activity tag contains Application name definition (based upon globally defined names) and package/meta-data information 
+
+<b>Carmine Valentino
+ - <a href="mailto:cvalentino3@gmail.com">cvalentino3@gmail.com</a><br >
+ - <a href="http://www.twiter.com/cvalentino3">Twitter</a><br >
+ - <a href="http://plus.google.com/+CarmineValentinoIII">Google +</a><br >
