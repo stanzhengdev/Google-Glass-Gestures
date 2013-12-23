@@ -14,7 +14,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		
 		Card card1 = new Card(this);
-		card1.setText("Testing Card Main Section");
+		card1.setText("Hello World!");
 		card1.setFootnote("Footer Note ...");
 		View card1View = card1.toView();
 		
