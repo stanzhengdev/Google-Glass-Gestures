@@ -22,5 +22,5 @@ Google Glass Boilerplate Template (Built for ADT)
 
 <b>Carmine Valentino
  - <a href="mailto:cvalentino3@gmail.com">cvalentino3@gmail.com</a><br >
- - <a href="http://www.twiter.com/cvalentino3">Twitter</a><br >
+ - <a href="http://www.twitter.com/cvalentino3">Twitter</a><br >
  - <a href="http://plus.google.com/+CarmineValentinoIII">Google +</a><br >
