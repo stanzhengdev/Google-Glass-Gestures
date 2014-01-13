@@ -19,7 +19,12 @@ Google Glass Boilerplate Template (Built for ADT)
   - Set voice trigger keyword - This will inherit our globally defined variable from the strings.xml file
  - /AndroidManifest.xml
   - The Activity tag contains Application name definition (based upon globally defined names) and package/meta-data information 
+ 
+FAQ/Change log<b> 
+- This does not have GDK added, should add that or glass wont recognize 
+- Manifest added in header "<?xml version="1.0" encoding="utf-8"?>"
 
+<b> original build by.
 <b>Carmine Valentino
  - <a href="mailto:cvalentino3@gmail.com">cvalentino3@gmail.com</a><br >
  - <a href="http://www.twitter.com/cvalentino3">Twitter</a><br >
