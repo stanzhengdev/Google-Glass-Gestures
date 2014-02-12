@@ -23,6 +23,8 @@ Google Glass Boilerplate Template (Built for ADT)
 FAQ/Change log<b> 
 - This does not have GDK added, should add that or glass wont recognize 
 - Manifest added in header "<?xml version="1.0" encoding="utf-8"?>"
+- Dump your packages sudo shell pm list packages -f
+
 
 <b> original build by.
 <b>Carmine Valentino

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.glasswareXE12"
+    package="com.stanzheng.gestures"
     android:versionCode="1"
     android:versionName="1.0" >
     
@@ -24,7 +24,7 @@
             android:required="true" />
         
         <activity
-            android:name="com.example.glasswareXE12.main.MainActivity"
+            android:name="com.stanzheng.gestures.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.google.android.glass.action.VOICE_TRIGGER" />
