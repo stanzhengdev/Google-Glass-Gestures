@@ -1,33 +1,37 @@
-Google Glass (XE12) Template
-=================
 
-Google Glass Boilerplate Template (Built for ADT)
+Glass Gestures
+=============
 
-<b>Features:
- - Registers Glassware with Glass Menu ("Test my App")
- - Registers Glassware with Glass Voice Command List ("Test my App")
- - Sets Up Static Card
- - Imports all Necessary Packages
- - Designed to Work with XE12
- 
-<b>Use as the base framework for Glassware development on XE12
+Simple app to test all the glass gestures that are avaliable visually. 
 
-<b>Notable File Location:
- - /res/values/strings.xml
-  - Global Variables for 'app_name', and 'glass_voice_triggers' These drive the voice commands and labeling of your Glassware in the Application menu.
- - /res/xml/voice_trigger.xml
-  - Set voice trigger keyword - This will inherit our globally defined variable from the strings.xml file
- - /AndroidManifest.xml
-  - The Activity tag contains Application name definition (based upon globally defined names) and package/meta-data information 
- 
-FAQ/Change log<b> 
-- This does not have GDK added, should add that or glass wont recognize 
-- Manifest added in header "<?xml version="1.0" encoding="utf-8"?>"
-- Dump your packages sudo shell pm list packages -f
+This app can be started using the voice intent 'ok glass, test gestures'
 
+Supported gestures
+------
+  Gesture LONG_PRESS
 
-<b> original build by.
-<b>Carmine Valentino
- - <a href="mailto:cvalentino3@gmail.com">cvalentino3@gmail.com</a><br >
- - <a href="http://www.twitter.com/cvalentino3">Twitter</a><br >
- - <a href="http://plus.google.com/+CarmineValentinoIII">Google +</a><br >
+  Gesture SWIPE_DOWN
+
+  Gesture SWIPE_LEFT
+
+  Gesture SWIPE_RIGHT
+
+  Gesture SWIPE_UP
+
+  Gesture TAP
+
+  Gesture THREE_LONG_PRESS
+
+  Gesture THREE_TAP
+
+  Gesture TWO_LONG_PRESS
+
+  Gesture TWO_SWIPE_DOWN
+
+  Gesture TWO_SWIPE_LEFT
+
+  Gesture TWO_SWIPE_RIGHT
+
+  Gesture TWO_SWIPE_UP
+
+  Gesture TWO_TAP
