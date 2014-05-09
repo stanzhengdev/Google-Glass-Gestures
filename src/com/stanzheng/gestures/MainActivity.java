@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
 		card1.setText("Visual Gestures!");
 		card1.setImageLayout(Card.ImageLayout.FULL);
 		card1.setFootnote("Gestures's in Glass");
-		View card1View = card1.toView();
+		View card1View = card1.getView();
 		setContentView(card1View);
 		card = card1;
 	}
@@ -52,7 +52,7 @@ public class MainActivity extends Activity {
                 	Log.d("@@@@", "TAP");
             		card.setText("TAP!");
             		card.setImageLayout(Card.ImageLayout.FULL);
-            		View card1View = card.toView();
+            		View card1View = card.getView();
             		setContentView(card1View);
                     // do something on tap
                     return true;
@@ -60,7 +60,7 @@ public class MainActivity extends Activity {
                     // do something on two finger tap
             		card.setText("TWO_TAP!");
             		card.setImageLayout(Card.ImageLayout.FULL);
-            		View card1View = card.toView();
+            		View card1View = card.getView();
             		setContentView(card1View);
                 	Log.d("@@@@", "2-TAP");
                 	return true;
@@ -69,13 +69,13 @@ public class MainActivity extends Activity {
                 	Log.d("@@@@", "SWIPE_RIGHT");
             		card.setText("SWIPE_RIGHT!");
             		card.setImageLayout(Card.ImageLayout.FULL);
-            		View card1View = card.toView();
+            		View card1View = card.getView();
             		setContentView(card1View);
                 	return true;
                 } else if (gesture == Gesture.SWIPE_LEFT) {
             		card.setText("SWIPE_LEFT!");
             		card.setImageLayout(Card.ImageLayout.FULL);
-            		View card1View = card.toView();
+            		View card1View = card.getView();
             		setContentView(card1View);
                     // do something on left (backwards) swipe
                 	Log.d("@@@@", "SWIPE_LEFT");
@@ -84,7 +84,7 @@ public class MainActivity extends Activity {
                 else if (gesture == Gesture.LONG_PRESS) {
             		card.setText("LONG_PRESS!");
             		card.setImageLayout(Card.ImageLayout.FULL);
-            		View card1View = card.toView();
+            		View card1View = card.getView();
             		setContentView(card1View);
                     // do something on left (backwards) swipe
                 	Log.d("@@@@", "LONG_PRESS");
@@ -93,7 +93,7 @@ public class MainActivity extends Activity {
                 else if (gesture == Gesture.THREE_LONG_PRESS) {
             		card.setText("THREE_LONG_PRESS!");
             		card.setImageLayout(Card.ImageLayout.FULL);
-            		View card1View = card.toView();
+            		View card1View = card.getView();
             		setContentView(card1View);
                     // do something on left (backwards) swipe
                 	Log.d("@@@@", "THREE_LONG_PRESS");
@@ -102,7 +102,7 @@ public class MainActivity extends Activity {
                 else if (gesture == Gesture.THREE_TAP) {
             		card.setText("THREE_TAP!");
             		card.setImageLayout(Card.ImageLayout.FULL);
-            		View card1View = card.toView();
+            		View card1View = card.getView();
             		setContentView(card1View);
                 	Log.d("@@@@", "THREE_TAP");
                 	return true;
@@ -110,7 +110,7 @@ public class MainActivity extends Activity {
                 else if (gesture == Gesture.TWO_LONG_PRESS) {
             		card.setText("TWO_LONG_PRESS!");
             		card.setImageLayout(Card.ImageLayout.FULL);
-            		View card1View = card.toView();
+            		View card1View = card.getView();
             		setContentView(card1View);
                 	Log.d("@@@@", "TWO_LONG_PRESS");
                 	return true;
@@ -118,7 +118,7 @@ public class MainActivity extends Activity {
                 else if (gesture == Gesture.TWO_SWIPE_DOWN) {
             		card.setText("TWO_SWIPE_DOWN!");
             		card.setImageLayout(Card.ImageLayout.FULL);
-            		View card1View = card.toView();
+            		View card1View = card.getView();
             		setContentView(card1View);
                 	Log.d("@@@@", "TWO_SWIPE_DOWN");
                 	return true;
@@ -126,7 +126,7 @@ public class MainActivity extends Activity {
                 else if (gesture == Gesture.TWO_SWIPE_LEFT) {
             		card.setText("TWO_SWIPE_LEFT!");
             		card.setImageLayout(Card.ImageLayout.FULL);
-            		View card1View = card.toView();
+            		View card1View = card.getView();
             		setContentView(card1View);
                 	Log.d("@@@@", "TWO_SWIPE_LEFT");
                 	return true;
@@ -134,7 +134,7 @@ public class MainActivity extends Activity {
                 else if (gesture == Gesture. TWO_SWIPE_RIGHT) {
             		card.setText(" TWO_SWIPE_RIGHT!");
             		card.setImageLayout(Card.ImageLayout.FULL);
-            		View card1View = card.toView();
+            		View card1View = card.getView();
             		setContentView(card1View);
                 	Log.d("@@@@", " TWO_SWIPE_RIGHT");
                 	return true;
@@ -142,7 +142,7 @@ public class MainActivity extends Activity {
                 else if (gesture == Gesture. TWO_SWIPE_UP) {
             		card.setText(" TWO_SWIPE_UP!");
             		card.setImageLayout(Card.ImageLayout.FULL);
-            		View card1View = card.toView();
+            		View card1View = card.getView();
             		setContentView(card1View);
                 	Log.d("@@@@", " TWO_SWIPE_UP");
                 	return true;
